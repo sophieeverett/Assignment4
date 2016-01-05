@@ -326,6 +326,7 @@ footer p {
   }
 
   #hero {
+    height: 500px;
 }
 
   h3 {
@@ -358,5 +359,19 @@ footer p {
     max-width: 60%;
   }
 
+  #posts {
+    width: 100%;
+  }
 
+  #posts h2 {
+    font-size: 30px;
+  }
+
+  #posts p {
+    font-size: 18px;
+  }
+
+  #posts .readmore {
+    font-size: 18px;
+  }
 }
