@@ -168,13 +168,13 @@ blockquote span {
   margin-top: 80px;
 }
 #posts {
-  width: 630px;
+  width: 65%;
   display: inline-block;
   margin-right: 60px;
   vertical-align: top;
 }
 #sidebar {
-  width: 250px;
+  width: 25%;
   display: inline-block;
   vertical-align: top;
 }
@@ -293,6 +293,14 @@ footer p {
 
 #hero .container {
   text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+
+  .container {
+    padding: 20px;
+  }
+  
 }
 
 @media screen and (max-width: 768px){
